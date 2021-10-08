@@ -1,0 +1,13 @@
+.btn-success:hover{
+    background:linear-gradient(black 0%,pink 100% );
+    
+}
+canvas{
+    animation-name:Example;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+@keyframes Example{
+    from{box-shadow: 3px 3px 38px turquoise;}
+    to{box-shadow: 3px 3px 38px plum;}
+}
